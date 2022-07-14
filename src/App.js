@@ -1,6 +1,4 @@
-import logo from './logo.svg';
 import './App.css';
-import myVideo from './video.mp4'
 
 function App() {
   return (
@@ -8,7 +6,7 @@ function App() {
       <header className="App-header">
         <marquee className='marquee-text'>We are coming up with Arduino, sensor, robokits, electronics components, Raspberry pi and DIY kits</marquee>
         <video className='videoTag' autoPlay loop muted>
-            <source src={myVideo} type='video/mp4' />
+            <source src='https://elasticbeanstalk-ap-south-1-163363467159.s3.ap-south-1.amazonaws.com/video.mp4' type='video/mp4' />
         </video>
         <h1 className='contact-us'>
           Contact us
